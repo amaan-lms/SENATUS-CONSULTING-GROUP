@@ -1,5 +1,6 @@
 import React from "react";
 import { Users, ShieldCheck, Zap } from "lucide-react";
+import img from "../assets/about1.jpg"
 
 const About = () => {
   return (
@@ -23,7 +24,7 @@ const About = () => {
           <div className="relative z-10 rounded-sm overflow-hidden border border-[#BF9024]/30 shadow-2xl">
             <div className="absolute inset-0 bg-[#002855]/20 group-hover:bg-transparent transition-colors duration-700" />
             <img
-              src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&q=80&w=1000"
+              src={img}
               alt="Professional Consultation"
               className="w-full h-[500px] object-cover grayscale-[0.5] group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105"
             />
